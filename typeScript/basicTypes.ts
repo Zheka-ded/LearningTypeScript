@@ -1,3 +1,5 @@
+console.group('basicTypes');
+
 let a: string = 'hello world';
 console.log(a);
 
@@ -100,3 +102,5 @@ let idType: Name;
 idType = 'a';
 // idType = 1;
 console.log(idType);
+
+console.groupEnd();

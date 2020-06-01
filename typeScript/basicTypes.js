@@ -1,3 +1,4 @@
+console.group('basicTypes');
 var a = 'hello world';
 console.log(a);
 var q = 'Tommy';
@@ -75,3 +76,4 @@ var idType;
 idType = 'a';
 // idType = 1;
 console.log(idType);
+console.groupEnd();
